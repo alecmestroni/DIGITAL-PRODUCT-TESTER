@@ -2,40 +2,44 @@
 
 ## MANUAL TEST
 
-### EXERCISE
+### Exercise Description:
 
-1. **Description**:
-   Write the test cases of the following card on mandatory user registration, considering: Functionality, Layout and Texts\
-   **TITLE**
-   To make sign up mandatory in order to publish ads\
-   **WHY**
-   To have a more selected, controlled and reliable target.
-   To avoid spammers.\
-   **WHERE**
-   In these following countries:
+- Write the test cases of the following card on mandatory user registration, considering: Functionality, Layout and Texts
 
-   - Brasil
-   - Argentina
-   - Singapore
-   - Switzerland
+**TITLE**
+To make sign up mandatory in order to publish ads
 
-   **WHAT**
-   To publish ads, users must be registered and create their
-   account on the site.
+**WHY**
+To have a more selected, controlled and reliable target.
+To avoid spammers.
 
-   1. Create an alert informing advertisers that registration
-      will be mandatory from day xx/xx/xx.
-      The alert will be visible on the top of these pages:
-      post-insert, post-insert-images, post-insert/$idannuncio$/ ,
-      post-promote/i/, /feedback/post-publish-email/, /post-edit/
-      The alert will have a link to the registration page
-      and will only be visible to non-logged in users.
-   1. Automatic activation at local midnight of mandatory
-      registration. When mandatory registration is activated
-      those pages will no longer be accessed by logged
-      out/unregistered users.
+**WHERE**
+In these following countries:
 
-### **Functionality** - Test Case
+- Brasil
+- Argentina
+- Singapore
+- Switzerland
+
+**WHAT**
+To publish ads, users must be registered and create their
+account on the site.
+
+1.  Create an alert informing advertisers that registration
+    will be mandatory from day xx/xx/xx.
+    The alert will be visible on the top of these pages:
+    post-insert, post-insert-images, post-insert/$idannuncio$/ ,
+    post-promote/i/, /feedback/post-publish-email/, /post-edit/
+    The alert will have a link to the registration page
+    and will only be visible to non-logged in users.
+1.  Automatic activation at local midnight of mandatory
+    registration. When mandatory registration is activated
+    those pages will no longer be accessed by logged
+    out/unregistered users.
+
+## Task Execution
+
+### 1. **Functionality** - Test Case
 
 0. User shuold be not logged in and must be from one of the countries involved.
 1. Open the website (mobile or desktop version).
@@ -47,7 +51,7 @@
 7. Verify that the user is able to successfully sign up and create their account.
 8. Verify that the user is now logged in and he's redirected back to the "Post Your Ad" section, exactly where the user left off.
 
-### **Layout** - Test Case
+### 2. **Layout** - Test Case
 
 0. User shuold be not logged in and must be from one of the countries involved.
 1. Open the website (mobile or desktop version).
@@ -58,7 +62,7 @@
 6. Verify that the confirmation message after sign-up is displayed in a clear and easily noticeable manner.
 7. Verify that the user is now logged in and he's redirected back to the "Post Your Ad" section, exactly where the user left off.
 
-### **Texts** - Test Case
+### 3. **Texts** - Test Case
 
 0. User shuold be not logged in and must be from one of the countries involved.
 1. Open the website (mobile or desktop version).
@@ -70,11 +74,21 @@
 7. Verify that any error messages displayed during sign-up use clear and concise language to explain the problem and how to fix it.
 8. Verify that the user is now logged in and he's redirected back to the "Post Your Ad" section, exactly where the user left off.
 
+---
+
 ## AUTOMATED TEST
+
+### Tool used : Cypress
+
+---
 
 ![alt text](https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/blob/master/cypress/fixtures/img/viewport.png?raw=true)
 
-### EXERCISE
+---
+
+![alt text](https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/blob/master/cypress/fixtures/img/test-exec.png?raw=true)
+
+---
 
 1. **Install**:\
    Clone the repo locally.\
@@ -82,17 +96,19 @@
 
 2. **Test Execution**:\
    Run in terminal: **"npm run automated-test"**\
-   ### Test Executed :
-   - Visit the site's home page
-   - The user clicks on the 'Publish your ad' button
-   - Verify that the ad publication page is displayed
-   - Check that the ad is present on all pages
-   - Check that the ad title is spelled correctly
-   - Check that the text of the ad is spelled correctly
-   - Check that the clickable text redirects to the correct page
-   - Ensure that the user can log out correctly after publishing the ad.
 
-### COVERAGE
+### Test Executed :
+
+- Visit the site's home page
+- The user clicks on the 'Publish your ad' button
+- Verify that the ad publication page is displayed
+- Check that the ad is present on all pages
+- Check that the ad title is spelled correctly
+- Check that the text of the ad is spelled correctly
+- Check that the clickable text redirects to the correct page
+- Ensure that the user can log out correctly after publishing the ad.
+
+### Test Coverage :
 
 1. **Viewport**:
    - iphone-x
