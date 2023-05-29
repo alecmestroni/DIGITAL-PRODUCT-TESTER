@@ -7,7 +7,7 @@
 - Write the test cases of the following card on mandatory user registration, considering: Functionality, Layout and Texts
 
 **TITLE**
-To make sign up mandatory in order to publish ads
+To make sign up mandatory in order to publish ads.
 
 **WHY**
 To have a more selected, controlled and reliable target.
@@ -16,7 +16,7 @@ To avoid spammers.
 **WHERE**
 In these following countries:
 
-- Brasil
+- Brazil
 - Argentina
 - Singapore
 - Switzerland
@@ -43,30 +43,30 @@ account on the site.
 
 ### 1. **Functionality** - Test Case
 
-0. User shuold be not logged in and must be from one of the countries involved.
+0. User shuold not be logged in and must visit the site from one of the countries involved.
 1. Open the website (mobile or desktop version).
 2. Click on the "Post Your Ad" button.
 3. Verify that alert is shown, the user is prompted to log in or sign up.
 4. Click on "Register Now".
-5. Registration form should be shown
+5. Registration form should be shown.
 6. Verify that the user is required to provide mandatory information such as name, email, password, and country.
 7. Verify that the user is able to successfully sign up and create their account.
 8. Verify that the user is now logged in and he's redirected back to the "Post Your Ad" section, exactly where the user left off.
 
 ### 2. **Layout** - Test Case
 
-0. User shuold be not logged in and must be from one of the countries involved.
+0. User shuold not be logged in and must visit the site from one of the countries involved.
 1. Open the website (mobile or desktop version).
 2. Click on the "Post Your Ad" button.
-3. Verify that the "Register Now" text is prominent and easily visible (different color) on the page.
+3. Verify that the "Register Now" text is prominent and easily visible (different colour) on the page.
 4. Verify that the sign-up form is well-organized and easy to navigate (to avoid the loss of users who, due to a difficult registration, no longer want to publish ads).
-5. Verify that the form fields are clearly labeled and easy to understand.
+5. Verify that the form fields are clearly labelled and easy to understand.
 6. Verify that the confirmation message after sign-up is displayed in a clear and easily noticeable manner.
 7. Verify that the user is now logged in and he's redirected back to the "Post Your Ad" section, exactly where the user left off.
 
 ### 3. **Texts** - Test Case
 
-0. User shuold be not logged in and must be from one of the countries involved.
+0. User shuold not be logged in and must visit the site from one of the countries involved.
 1. Open the website (mobile or desktop version).
 2. Click on the "Post Your Ad" button.
 3. Verify that the clickable text "Register Now" is well spelled.
@@ -80,7 +80,7 @@ account on the site.
 
 ## AUTOMATED TEST
 
-### Tool used : Cypress
+### Tool used: Cypress
 
 1. **Install**:\
    Clone the repo locally.\
@@ -93,22 +93,22 @@ account on the site.
 
 ---
 
-### Test Executed :
+### Test Executed:
 
-- Visit the site's home page
-- The user clicks on the 'Publish your ad' button
-- Verify that the ad publication page is displayed
-- Check that the ad is present on all pages
-- Check that the ad title is spelled correctly
-- Check that the text of the ad is spelled correctly
-- Check that the clickable text redirects to the correct page
+- Visit the site's home page.
+- The user clicks on the 'Publish your ad' button.
+- Verify that the ad publication page is displayed.
+- Check that the ad is present on all pages.
+- Check that the ad title is spelled correctly.
+- Check that the text of the ad is spelled correctly.
+- Check that the clickable text redirects to the correct page.
 - Ensure that the user can log out correctly after publishing the ad.
 
 ![img1](https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/blob/master/cypress/fixtures/img/test-exec.png?raw=true)
 
 ---
 
-### Test Coverage :
+### Test Coverage:
 
 ![img2](https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/blob/master/cypress/fixtures/img/viewport.png?raw=true)
 
@@ -125,7 +125,7 @@ account on the site.
    - /feedback/post-publish-email/
 3. **URL**:
    {it is not possible to do so in the local environment, but would have been}
-   - Brasil URL
+   - Brazil URL
    - Argentina URL
    - Singapore URL
    - Switzerland URL
@@ -133,4 +133,4 @@ account on the site.
    - Spelling alert-title
    - Spelling alert-text
 5. **Redirect**:
-   - Verify the redirect to the "Registration Page"
+   - Verify the redirect to the "Registration Page".
