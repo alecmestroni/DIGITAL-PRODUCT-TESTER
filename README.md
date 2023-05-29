@@ -37,6 +37,8 @@ account on the site.
     those pages will no longer be accessed by logged
     out/unregistered users.
 
+---
+
 ## Task Execution
 
 ### 1. **Functionality** - Test Case
@@ -87,6 +89,8 @@ account on the site.
 2. **Test Execution**:\
    Run in terminal: **"npm run automated-test"**\
 
+   ![video](https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/blob/master/cypress/videos/img/automatedTest.cy.js.mp4?raw=true)
+
 ---
 
 ### Test Executed :
@@ -100,13 +104,13 @@ account on the site.
 - Check that the clickable text redirects to the correct page
 - Ensure that the user can log out correctly after publishing the ad.
 
-![alt text](https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/blob/master/cypress/fixtures/img/test-exec.png?raw=true)
+![img1](https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/blob/master/cypress/fixtures/img/test-exec.png?raw=true)
 
 ---
 
 ### Test Coverage :
 
-![alt text](https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/blob/master/cypress/fixtures/img/viewport.png?raw=true)
+![img2](https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/blob/master/cypress/fixtures/img/viewport.png?raw=true)
 
 1. **Viewport**:
    - iphone-x
@@ -130,5 +134,3 @@ account on the site.
    - Spelling alert-text
 5. **Redirect**:
    - Verify the redirect to the "Registration Page"
-
----
