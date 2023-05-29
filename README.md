@@ -4,26 +4,26 @@
 
 ### Exercise Description:
 
-- Write the test cases of the following card on mandatory user registration, considering: Functionality, Layout and Texts
+Write the test cases of the following card on mandatory user registration, considering: Functionality, Layout and Texts
 
-**TITLE**
-To make sign up mandatory in order to publish ads
+- **TITLE**
+    To make sign up mandatory in order to publish ads
 
-**WHY**
-To have a more selected, controlled and reliable target.
-To avoid spammers.
+- **WHY**
+    To have a more selected, controlled and reliable target.
+    To avoid spammers.
 
-**WHERE**
-In these following countries:
+- **WHERE**
+    In these following countries:
 
-- Brasil
-- Argentina
-- Singapore
-- Switzerland
+    - Brasil
+    - Argentina
+    - Singapore
+    - Switzerland
 
-**WHAT**
-To publish ads, users must be registered and create their
-account on the site.
+- **WHAT**
+    To publish ads, users must be registered and create their
+    account on the site.
 
 1.  Create an alert informing advertisers that registration
     will be mandatory from day xx/xx/xx.
@@ -32,7 +32,7 @@ account on the site.
     post-promote/i/, /feedback/post-publish-email/, /post-edit/
     The alert will have a link to the registration page
     and will only be visible to non-logged in users.
-1.  Automatic activation at local midnight of mandatory
+2.  Automatic activation at local midnight of mandatory
     registration. When mandatory registration is activated
     those pages will no longer be accessed by logged
     out/unregistered users.
