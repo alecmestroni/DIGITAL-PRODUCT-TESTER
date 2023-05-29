@@ -43,7 +43,7 @@ Write the test cases of the following card on mandatory user registration, consi
 
 ### 1. **Functionality** - Test Case
 
-0. User shuold not be logged in and must visit the site from one of the countries involved.
+0. User should not be logged in and must visit the site from one of the countries involved.
 1. Open the website (mobile or desktop version).
 2. Click on the "Post Your Ad" button.
 3. Verify that alert is shown, the user is prompted to log in or sign up.
@@ -55,7 +55,7 @@ Write the test cases of the following card on mandatory user registration, consi
 
 ### 2. **Layout** - Test Case
 
-0. User shuold not be logged in and must visit the site from one of the countries involved.
+0. User should not be logged in and must visit the site from one of the countries involved.
 1. Open the website (mobile or desktop version).
 2. Click on the "Post Your Ad" button.
 3. Verify that the "Register Now" text is prominent and easily visible (different colour) on the page.
@@ -66,7 +66,7 @@ Write the test cases of the following card on mandatory user registration, consi
 
 ### 3. **Texts** - Test Case
 
-0. User shuold not be logged in and must visit the site from one of the countries involved.
+0. User should not be logged in and must visit the site from one of the countries involved.
 1. Open the website (mobile or desktop version).
 2. Click on the "Post Your Ad" button.
 3. Verify that the clickable text "Register Now" is well spelled.
