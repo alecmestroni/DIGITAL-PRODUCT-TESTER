@@ -119,8 +119,6 @@ https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/assets/62354989/5bc1a6b5-
 
 ### Test Coverage:
 
-![img2](https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/blob/master/cypress/fixtures/img/viewport.png?raw=true)
-
 1. **Viewport**:
    - iphone-x
    - samsung-s10
