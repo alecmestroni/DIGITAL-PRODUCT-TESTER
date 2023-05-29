@@ -98,7 +98,11 @@ alert using pseudocode (if known, is preferred Python language) for mandatory us
 2. **Test Execution**:\
    Run in terminal: **"npm run automated-test"**\
 
-https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/assets/62354989/5bc1a6b5-2d30-4943-8531-a40bbfed2ba7
+
+
+https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/assets/62354989/d748af1b-8188-4b29-a996-30fd80a1a713
+
+
 
 ---
 
