@@ -80,22 +80,14 @@ account on the site.
 
 ### Tool used : Cypress
 
----
-
-![alt text](https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/blob/master/cypress/fixtures/img/viewport.png?raw=true)
-
----
-
-![alt text](https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/blob/master/cypress/fixtures/img/test-exec.png?raw=true)
-
----
-
 1. **Install**:\
    Clone the repo locally.\
    Run in terminal: **"npm install"**
 
 2. **Test Execution**:\
    Run in terminal: **"npm run automated-test"**\
+
+---
 
 ### Test Executed :
 
@@ -108,7 +100,13 @@ account on the site.
 - Check that the clickable text redirects to the correct page
 - Ensure that the user can log out correctly after publishing the ad.
 
+![alt text](https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/blob/master/cypress/fixtures/img/test-exec.png?raw=true)
+
+---
+
 ### Test Coverage :
+
+![alt text](https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/blob/master/cypress/fixtures/img/viewport.png?raw=true)
 
 1. **Viewport**:
    - iphone-x
@@ -132,3 +130,5 @@ account on the site.
    - Spelling alert-text
 5. **Redirect**:
    - Verify the redirect to the "Registration Page"
+
+---
