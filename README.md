@@ -91,7 +91,11 @@ account on the site.
 
  
 
-https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/assets/62354989/2e81c303-1fc0-4626-a252-9156a4283847
+
+https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/assets/62354989/5bc1a6b5-2d30-4943-8531-a40bbfed2ba7
+
+
+
 
 
 
