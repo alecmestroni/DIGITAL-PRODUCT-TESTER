@@ -106,7 +106,7 @@ https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/assets/62354989/5bc1a6b5-
 - Visit the site's home page
 - The user clicks on the 'Publish your ad' button
 - Verify that the ad publication page is displayed
-- Check that the ad is present on all pages
+- Check that the ad is present on all required pages
 - Check that the ad title is spelled correctly
 - Check that the text of the ad is spelled correctly
 - Check that the clickable text redirects to the correct page
