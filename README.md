@@ -72,7 +72,7 @@
 
 ## AUTOMATED TEST
 
-![alt text](https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/tree/master/cypress/fixtures/img/viewport.png?raw=true)
+![alt text](https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/blob/master/cypress/fixtures/img/viewport.png?raw=true)
 
 ### EXERCISE
 
