@@ -89,7 +89,11 @@ account on the site.
 2. **Test Execution**:\
    Run in terminal: **"npm run automated-test"**\
 
-   ![video](https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/blob/master/cypress/videos/automatedTest.cy.js.mp4?raw=true)
+ 
+
+https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/assets/62354989/2e81c303-1fc0-4626-a252-9156a4283847
+
+
 
 ---
 
