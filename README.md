@@ -4,35 +4,35 @@
 
 ### Exercise Description:
 
-- Write the test cases of the following card on mandatory user registration, considering: Functionality, Layout and Texts
+Write the test cases of the following card on mandatory user registration, considering: Functionality, Layout and Texts
 
-**TITLE**
-To make sign up mandatory in order to publish ads.
+- **TITLE**
+  To make sign up mandatory in order to publish ads
 
-**WHY**
-To have a more selected, controlled and reliable target.
-To avoid spammers.
+- **WHY**
+  To have a more selected, controlled and reliable target.
+  To avoid spammers.
 
-**WHERE**
-In these following countries:
+- **WHERE**
+  In these following countries:
 
-- Brazil
-- Argentina
-- Singapore
-- Switzerland
+  - Brazil
+  - Argentina
+  - Singapore
+  - Switzerland
 
-**WHAT**
-To publish ads, users must be registered and create their
-account on the site.
+- **WHAT**
+  To publish ads, users must be registered and create their
+  account on the site.
 
-1.  Create an alert informing advertisers that registration
+  - Create an alert informing advertisers that registration
     will be mandatory from day xx/xx/xx.
     The alert will be visible on the top of these pages:
     post-insert, post-insert-images, post-insert/$idannuncio$/ ,
     post-promote/i/, /feedback/post-publish-email/, /post-edit/
     The alert will have a link to the registration page
     and will only be visible to non-logged in users.
-1.  Automatic activation at local midnight of mandatory
+  - Automatic activation at local midnight of mandatory
     registration. When mandatory registration is activated
     those pages will no longer be accessed by logged
     out/unregistered users.
@@ -80,6 +80,15 @@ account on the site.
 
 ## AUTOMATED TEST
 
+### Exercise Description:
+
+Related to the first exercise (slide 2) and according to screenshots (in slide 4), write a mini script of the yellow
+alert using pseudocode (if known, is preferred Python language) for mandatory user registration.
+
+---
+
+## Task Execution
+
 ### Tool used: Cypress
 
 1. **Install**:\
@@ -89,7 +98,7 @@ account on the site.
 2. **Test Execution**:\
    Run in terminal: **"npm run automated-test"**\
 
-   ![video](https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/blob/master/cypress/videos/automatedTest.cy.js.mp4?raw=true)
+https://github.com/alecmestroni/DIGITAL-PRODUCT-TESTER/assets/62354989/5bc1a6b5-2d30-4943-8531-a40bbfed2ba7
 
 ---
 
