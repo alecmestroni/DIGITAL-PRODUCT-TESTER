@@ -1,0 +1,14 @@
+{
+  "name": "automated-test",
+  "version": "1.0.0",
+  "description": "automated test execution",
+  "main": "index.js",
+  "scripts": {
+    "automated-test": "npx cypress run -b chrome --headed --no-exit -s 'cypress/e2e/automatedTest.cy.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.13.0"
+  }
+}

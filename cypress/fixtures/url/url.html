@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pubblica il tuo annuncio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-***" crossorigin="anonymous" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .alert {
+            background-color: #ffc107;
+            color: #333;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        .alert h6 {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .alert h6 span {
+            font-weight: bold;
+        }
+
+        .alert .small {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        .alert a {
+            color: #333;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Pubblica il tuo annuncio</h1>
+    <div class="container">
+        <div class="alert alert-warning text-center" data-cy="signUp-warning" role="alert">
+            <h6>
+                <i class="fa fa-info-circle mr-2" aria-hidden="true"></i>
+                <span data-cy="alert-title">Important Notice</span>
+            </h6>
+            <div class="col px-0 ml-2">
+                <h5 class="small" data-cy="alert-text">
+                    Attention starting from day <b>May 31, 2023</b> to publish your ad you will need to be registered on
+                    the site.
+                    <a href="./registrationPage.html">Register Now!</a>
+                </h5>
+            </div>
+        </div>
+        <form action="process.php" method="POST">
+            <label for="title">Titolo:</label>
+            <input type="text" id="title" name="title" required><br><br>
+
+            <label for="description">Descrizione:</label><br>
+            <textarea id="description" name="description" rows="4" cols="50" required></textarea><br><br>
+
+            <label for="contact">Contatto:</label>
+            <input type="text" id="contact" name="contact" required><br><br>
+
+            <label for="location">Località:</label>
+            <input type="text" id="location" name="location" required><br><br>
+
+            <input type="submit" value="Pubblica annuncio">
+        </form>
+</body>
+
+</html>
